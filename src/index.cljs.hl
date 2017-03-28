@@ -3,11 +3,10 @@
     [hoplon.sub :refer [myvar]]
     [hoplon.ui :as ui]))
 
-
 (ui/window
   (ui/elem
     myvar
-    "loki"))
+    "World"))
 ;
 
 
@@ -15,4 +14,4 @@
 ;   (head
 ;     (link :href "app.css" :rel "stylesheet" :type "text/css"))
 ;   (body
-;     (h1 (myvar))))
+;     (h1 myvar)))
