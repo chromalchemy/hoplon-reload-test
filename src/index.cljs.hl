@@ -1,0 +1,18 @@
+(page "index.html"
+  (:require
+    [hoplon.sub :refer [myvar]]
+    [hoplon.ui :as ui]))
+
+
+(ui/window
+  (ui/elem
+    myvar
+    "loki"))
+;
+
+
+; (html
+;   (head
+;     (link :href "app.css" :rel "stylesheet" :type "text/css"))
+;   (body
+;     (h1 (myvar))))
